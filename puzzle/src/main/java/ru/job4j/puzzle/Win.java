@@ -12,7 +12,6 @@ public class Win {
         return rsl;
     }
 
-
     public static boolean monoHorizontal(int[][] board, int row) {
         boolean rsl = true;
         for (int cell = 0; cell < board[row].length; cell++) {
