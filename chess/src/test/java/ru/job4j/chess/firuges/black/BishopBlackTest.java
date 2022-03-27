@@ -30,7 +30,7 @@ public class BishopBlackTest {
     public void whenBishopBlackC1toG5() {
         Figure bishopBlack = new BishopBlack(Cell.C1);
         Cell[] bishop = bishopBlack.way(Cell.G5);
-        Cell[] expected = {Cell.C1, Cell.D2, Cell.E3, Cell.F4, Cell.G5};
+        Cell[] expected = {Cell.D2, Cell.E3, Cell.F4, Cell.G5};
         Assert.assertArrayEquals(bishop, expected);
     }
 
@@ -38,7 +38,7 @@ public class BishopBlackTest {
     public void whenBishopBlackG5toC1() {
         Figure bishopBlack = new BishopBlack(Cell.G5);
         Cell[] bishop = bishopBlack.way(Cell.C1);
-        Cell[] expected = {Cell.G5, Cell.F4, Cell.E3, Cell.D2, Cell.C1};
+        Cell[] expected = {Cell.F4, Cell.E3, Cell.D2, Cell.C1};
         Assert.assertArrayEquals(bishop, expected);
     }
 
@@ -46,7 +46,7 @@ public class BishopBlackTest {
     public void whenBishopBlackG1toB6() {
         Figure bishopBlack = new BishopBlack(Cell.G1);
         Cell[] bishop = bishopBlack.way(Cell.B6);
-        Cell[] expected = {Cell.G1, Cell.F2, Cell.E3, Cell.D4, Cell.C5, Cell.B6};
+        Cell[] expected = {Cell.F2, Cell.E3, Cell.D4, Cell.C5, Cell.B6};
         Assert.assertArrayEquals(bishop, expected);
     }
 
@@ -54,7 +54,7 @@ public class BishopBlackTest {
     public void whenBishopBlackB6toC1() {
         Figure bishopBlack = new BishopBlack(Cell.B6);
         Cell[] bishop = bishopBlack.way(Cell.G1);
-        Cell[] expected = {Cell.B6, Cell.C5, Cell.D4, Cell.E3, Cell.F2, Cell.G1};
+        Cell[] expected = {Cell.C5, Cell.D4, Cell.E3, Cell.F2, Cell.G1};
         Assert.assertArrayEquals(bishop, expected);
     }
 
