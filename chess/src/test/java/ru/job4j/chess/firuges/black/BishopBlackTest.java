@@ -16,14 +16,14 @@ public class BishopBlackTest {
     @Test
     public void whenBishopBlackC1() {
         Figure bishopBlack = new BishopBlack(Cell.C1);
-        Assert.assertEquals(bishopBlack.position(),Cell.C1);
+        Assert.assertEquals(bishopBlack.position(), Cell.C1);
     }
 
     @Test
     public void whenBishopBlackC1toA1() {
         Figure bishopBlack = new BishopBlack(Cell.C1);
         bishopBlack = bishopBlack.copy(Cell.A1);
-        Assert.assertEquals(bishopBlack.position(),Cell.A1);
+        Assert.assertEquals(bishopBlack.position(), Cell.A1);
     }
 
     @Test
